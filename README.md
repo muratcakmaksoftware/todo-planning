@@ -38,6 +38,6 @@ npm install && npm run dev
 - laravel/ui
 - ui bootstrap
 ## Preview
-- ![To-Do-Planning!](public/images/todo-planning.png "To-Do-Planning")
+![To-Do-Planning!](public/images/todo-planning.png "To-Do-Planning")
 
 
