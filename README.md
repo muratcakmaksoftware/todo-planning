@@ -10,12 +10,12 @@ database/migrations/2022_04_07_072919_create_developers_table
 ```
 php artisan migrate
 ```
-Seed yaparak Developers verilerini oluşturulmuş olacaktır.
+Bir kere seed yaparak Developers verilerini oluşturmuş olacaktır.
 database/seeders/DeveloperSeeder.php çalışacaktır
 ```
 php artisan db:seed
 ```
-**Providers** yüklemek için kullanabilirsiniz:
+Providers (mocky) yüklemek için:
 ```
 php artisan mocky:loader
 ```
@@ -27,12 +27,17 @@ npm install && npm run dev
 ## About
 
 - Solid uygulanmıştır.
-- Repository Design Pattern kullanmışıtır ve interface'i repository'ye bind edilmiştir.
+- Repository Design Pattern kullanılmıştır ve beraberinde interface -> repository bind edilmiştir.
 - Standart API dönüşleri sağlanmıştır. (APIResponseTrait)
 - Dil desteği vardır.
 - Hata yakalama kontrolleri mevcuttur. (Handler)
+- Stubs mevcuttur.
 
 ## Packages
 
 - laravel/ui
 - ui bootstrap
+## Preview
+- ![To-Do-Planning!](public/images/todo-planning.png "To-Do-Planning")
+
+
