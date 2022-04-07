@@ -1,0 +1,53 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Repositories\BaseRepository;
+use App\Interfaces\RepositoryInterfaces\{{ folder_path }}{{ class_name }}RepositoryInterface;
+
+class {{ class }} extends BaseRepository implements {{ class_name }}RepositoryInterface
+{
+    private $model;
+
+    public function __construct({{ class_name }} $model)
+    {
+        parent::__construct($model);
+    }
+
+    public function index()
+    {
+
+    }
+
+    public function create()
+    {
+
+    }
+
+    public function store(Request $request)
+    {
+
+    }
+
+    public function show($id)
+    {
+
+    }
+
+    public function edit($id)
+    {
+
+    }
+
+    public function update(Request $request, $id)
+    {
+
+    }
+
+    public function destroy($id)
+    {
+
+    }
+}
