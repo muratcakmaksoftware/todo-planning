@@ -27,7 +27,7 @@ npm install && npm run dev
 ## About
 
 - Solid uygulanmıştır.
-- Repository Design Pattern kullanılmıştır ve beraberinde interface -> repository bind edilmiştir.
+- Repository Design Pattern kullanılmıştır ve beraberinde interface -> repository bind edilmiştir. (RepositoryServiceProvider.php)
 - Standart API dönüşleri sağlanmıştır. (APIResponseTrait)
 - Dil desteği vardır.
 - Hata yakalama kontrolleri mevcuttur. (Handler)
